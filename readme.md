@@ -1,5 +1,12 @@
 # Digital Spark
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
+![Streamlit](https://img.shields.io/badge/Built%20with-Streamlit-orange)
+![License](https://img.shields.io/badge/License-MIT-green)
+![Repo Size](https://img.shields.io/github/repo-size/anam258/digital-spark)
+![Last Commit](https://img.shields.io/github/last-commit/anam258/digital-spark)
+
+
 **Digital Spark** is a smart web application built with Python and Streamlit that helps users plan and manage their monthly social media content using curated tools, customizable templates, and subscription packages. It's ideal for small business owners, content creators, or anyone looking to build a strong digital presence.
 
 ---
@@ -80,6 +87,7 @@ In future versions, **Digital Spark** will become a complete SaaS platform for c
 - **User analytics dashboard (charts, engagement stats)**
 - **Admin dashboard for managing subscriptions**
 - **Email notifications & newsletters**
+- **Use Next JS as a frontend for better routing & UI/UX**
 - **Mobile-responsive UI and deployment on Streamlit Cloud**
 
 ---
@@ -88,63 +96,24 @@ In future versions, **Digital Spark** will become a complete SaaS platform for c
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/digital-spark.git
+   git clone https://github.com/anam258/digital-spark.git
    cd digital-spark
 
-
 ---
-
-## Future Vision & Expansion
-
-In future versions, **Digital Spark** will become a complete SaaS platform for content creators and brands. Here's what we plan to add:
-
-- **Real Payment Integration (Stripe/PayPal)**
-- **Drag-and-drop content calendar with reminders**
-- **AI-generated post ideas and captions**
-- **User analytics dashboard (charts, engagement stats)**
-- **Admin dashboard for managing subscriptions**
-- **Email notifications & newsletters**
-- **Mobile-responsive UI and deployment on Streamlit Cloud**
-
----
-
-## How to Run
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/digital-spark.git
-   cd digital-spark
-
-
----
-
-## Future Vision & Expansion
-
-In future versions, **Digital Spark** will become a complete SaaS platform for content creators and brands. Here's what we plan to add:
-
-- **Real Payment Integration (Stripe/PayPal)**
-- **Drag-and-drop content calendar with reminders**
-- **AI-generated post ideas and captions**
-- **User analytics dashboard (charts, engagement stats)**
-- **Admin dashboard for managing subscriptions**
-- **Email notifications & newsletters**
-- **Mobile-responsive UI and deployment on Streamlit Cloud**
-
----
-
-## How to Run
-
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/digital-spark.git
-   cd digital-spark
 
 2. **Install dependencies** 
 pip install -r requirements.txt
+
+---
 
 3. **Run the app** 
 streamlit run app.py
 
 
-Credits
-Made with love by Anam Anwer GIAIC Roll # 00355123 as part of the $10 Challenge (3rd Week) — an educational initiative by GIAIC, promoting creativity and entrepreneurship through coding.
+**Credits**
+Made with ❤️ by Anam Anwer (GIAIC Roll # 00355123) as part of the $10 Challenge (3rd Week) — an educational initiative by GIAIC, promoting creativity and entrepreneurship through coding.
+
+
+
+
+------  End  ---------

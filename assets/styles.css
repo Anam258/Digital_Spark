@@ -1,0 +1,334 @@
+/* Universal Reset + Smooth Scroll */
+* {
+    scroll-behavior: smooth;
+}
+
+/* Section Padding to Separate + Flow Nicely */
+section {
+    padding: 3rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+/* Section Headings */
+.section-title {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #d6336c;
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+
+.section-title::after {
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: #ff85a1;
+    display: block;
+    margin: 0.6rem auto 0;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero-left h1 {
+    font-size: 3rem;
+    color: #d6336c;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.hero-left h4 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+.hero-left p {
+    font-size: 1.15rem;
+    color: #666;
+    line-height: 1.7;
+    margin-bottom: 1.2rem;
+}
+
+/* Service Section */
+.service-card {
+    background: linear-gradient(to bottom right, #ffffff, #fff1f5);
+    padding: 1.7rem;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    margin-bottom: 1.8rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 28px rgba(0,0,0,0.1);
+}
+
+.service-icon {
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.service-content h4 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+    color: #d6336c;
+}
+
+.service-content p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Benefits Section */
+.benefit-card {
+    background: #fffdfc;
+    padding: 1.6rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+    margin-bottom: 1.8rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.benefit-icon {
+    font-size: 2rem;
+    margin-bottom: 0.6rem;
+    color: #ff69a6;
+}
+
+.benefit-content h4 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.4rem;
+}
+
+.benefit-content p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Testimonials Section */
+
+.review-card {
+    background: #ffffff;
+    padding: 1.5rem;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+.avatar {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.review-text {
+    font-style: italic;
+    color: #555;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+/* Footer Styling */
+.footer {
+    margin-top: 3rem;
+    padding: 1.5rem 0;
+    background: #f8f8f8;
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.footer-links a {
+    color: #d6336c;
+    margin: 0 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #a61e4d;
+}
+
+.footer-contact a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+.dashboard-header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.highlight-user {
+    color: #ff4b4b;
+    font-weight: bold;
+}
+
+.dashboard-tools {
+    margin-top: 30px;
+}
+
+.section-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.tool-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tool-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+.tool-icon {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.tool-content h4 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tool-content p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Package Section Styling */
+.packages-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.package-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-top: 5px solid #00b894;
+}
+
+.package-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.package-box h4 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #2d3436;
+}
+
+.package-box p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 12px;
+}
+
+.package-box ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.package-box ul li {
+    padding: 6px 0;
+    font-size: 14px;
+    color: #444;
+    border-bottom: 1px dashed #ddd;
+}
+
+.badge-popular {
+    background-color: #fdcb6e;
+    color: #2d3436;
+    padding: 5px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Payment Section Styling */
+.payment-section {
+    background-color: #f4f4f9; /* Light background for the payment section */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding around the content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for better visibility */
+    margin-top: 20px;
+}
+
+.payment-section h3 {
+    color: #2c3e50; /* Dark color for the heading */
+    font-size: 24px; /* Set font size */
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+.payment-section p {
+    color: #34495e; /* Slightly lighter dark color for the paragraph */
+    font-size: 18px;
+}
+
+.payment-section selectbox {
+    width: 100%; /* Full width for the selectbox */
+    padding: 8px; /* Padding inside the selectbox */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+}
+
+.payment-section input {
+    width: 100%; /* Full width for the input field */
+    padding: 8px; /* Padding inside the input */
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px;
+}
+
+.payment-section button {
+    background-color: #27ae60; /* Green button */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.payment-section button:hover {
+    background-color: #2ecc71; /* Lighter green on hover */
+}

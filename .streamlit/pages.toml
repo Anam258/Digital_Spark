@@ -1,0 +1,3 @@
+[[pages]]
+path = "pages/dashboard.py"
+name = "Dashboard"

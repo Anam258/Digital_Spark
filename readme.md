@@ -9,6 +9,10 @@
 
 **Digital Spark** is a smart web application built with Python and Streamlit that helps users plan and manage their monthly social media content using curated tools, customizable templates, and subscription packages. It's ideal for small business owners, content creators, or anyone looking to build a strong digital presence.
 
+## 🚀 Live Demo
+
+👉 [Click here to try Digital Spark online!](https://digital-spark.streamlit.app/)
+
 ---
 
 ## Features
@@ -110,7 +114,7 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-**Credits**
+## Credits
 Made with ❤️ by Anam Anwer (GIAIC Roll # 00355123) as part of the $10 Challenge (3rd Week) — an educational initiative by GIAIC, promoting creativity and entrepreneurship through coding.
 
 
